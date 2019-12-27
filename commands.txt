@@ -1,0 +1,91 @@
+start in the router:
+conf t
+line console 0
+no exec-timeout
+exit
+end
+wr
+
+configure ip and mask to each router:
+conf t
+int ethernet 1/0
+ip address 192.168.168.1 255.255.255.128
+no shutdown
+end
+wr
+
+configure dhcp:
+conf t
+ip dhcp pool FINANCE-POOL
+network 192.168.168.0 255.255.255.128
+default-router 192.168.168.1
+dns-server 8.8.8.8
+end
+wr
+
+exclude ips:
+conf t
+ip dhcp excluded-address 192.168.168.1 192.168.168.6
+end
+wr
+
+Configure network between routers:
+conf t
+int ethernet 1/1
+ip address 172.16.2.2 255.255.255.252
+no shutdown
+end
+wr
+
+Configure the VLAN:
+conf t
+interface ethernet 1/0.103
+no sh
+encapsulation dot1Q 103
+ip address 192.168.168.225 255.255.255.240
+end
+wr
+
+static route(router for department):
+conf t
+ip route 0.0.0.0 0.0.0.0 172.16.2.1
+end
+wr
+
+static route (main router):
+conf t
+ip route 192.168.168.192 255.255.255.224 172.16.2.2
+end
+wr
+
+Try the NAT:
+conf t
+int ethernet 1/0
+ip nat inside
+exit
+
+int ethernet 2/0
+ip nat outside
+exit
+
+create access list:
+access-list 100 permit ip 192.168.168.192 0.255.255.255
+ip nat inside source list 100 interface ethernet 2/0 overload
+end
+wr
+
+catch a external ip:
+conf t
+ip address dhcp
+no shutdown
+end
+wr
+
+configure the DNS:
+conf t
+ip domain-lookup
+ip name-server 8.8.8.8
+end
+wr
+
+https://docs.gns3.com/1vFs-KENh2uUFfb47Q2oeSersmEK4WahzWX-HrMIMd00/index.html

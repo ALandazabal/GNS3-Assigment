@@ -1,0 +1,17 @@
+Nov 18 23:14:39.791 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 18 23:14:39.791 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50813.
+Nov 18 23:14:39.838 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 18 23:14:39.869 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 18 23:14:39.963 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Desing\project-files\dynamips 
+Nov 18 23:14:39.963 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Desing\project-files\dynamips
+Nov 18 23:14:40.072 HYPERVISOR: exec_cmd: ethsw create SW9 
+Nov 18 23:14:49.042 HYPERVISOR: exec_cmd: nio create_udp udp-16ec11bc-7618-4f64-a7ce-f27933016f1b 10019 127.0.0.1 10017 
+Nov 18 23:14:49.120 HYPERVISOR: exec_cmd: ethsw add_nio SW9 udp-16ec11bc-7618-4f64-a7ce-f27933016f1b 
+Nov 18 23:14:49.307 HYPERVISOR: exec_cmd: ethsw set_access_port SW9 udp-16ec11bc-7618-4f64-a7ce-f27933016f1b 1 
+Nov 18 23:14:52.802 HYPERVISOR: exec_cmd: nio create_udp udp-819a0c50-3153-492c-84b0-32a864c86f63 10052 127.0.0.1 10053 
+Nov 18 23:14:52.927 HYPERVISOR: exec_cmd: ethsw add_nio SW9 udp-819a0c50-3153-492c-84b0-32a864c86f63 
+Nov 18 23:14:53.036 HYPERVISOR: exec_cmd: ethsw set_access_port SW9 udp-819a0c50-3153-492c-84b0-32a864c86f63 1 
+Nov 19 01:17:37.057 HYPERVISOR: exec_cmd: ethsw delete SW9 
+Nov 19 01:17:39.070 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 01:17:42.065 HYPERVISOR: Stopped.
+Nov 19 01:17:42.080 GENERAL: reset done.

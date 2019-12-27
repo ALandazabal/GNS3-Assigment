@@ -1,0 +1,20 @@
+Nov 19 21:45:28.640 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 21:45:28.640 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52842.
+Nov 19 21:45:30.091 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 21:45:30.091 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 21:45:30.091 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 21:45:30.091 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 21:45:30.091 HYPERVISOR: exec_cmd: ethsw create SW5 
+Nov 19 21:45:45.789 HYPERVISOR: exec_cmd: nio create_udp udp-c2f30950-25ee-4c8f-9a41-79a4129526f8 10008 127.0.0.1 10006 
+Nov 19 21:45:46.460 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-c2f30950-25ee-4c8f-9a41-79a4129526f8 
+Nov 19 21:45:46.779 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-c2f30950-25ee-4c8f-9a41-79a4129526f8 1 
+Nov 19 21:45:54.741 HYPERVISOR: exec_cmd: nio create_udp udp-544a3b50-462f-40e4-bb04-3ffc9533a5a1 10068 127.0.0.1 10067 
+Nov 19 21:45:54.928 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-544a3b50-462f-40e4-bb04-3ffc9533a5a1 
+Nov 19 21:45:54.944 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-544a3b50-462f-40e4-bb04-3ffc9533a5a1 1 
+Nov 19 21:45:55.272 HYPERVISOR: exec_cmd: nio create_udp udp-4508ed63-ad5c-4004-a4a2-a9930bb8aa07 10072 127.0.0.1 10071 
+Nov 19 21:45:55.443 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-4508ed63-ad5c-4004-a4a2-a9930bb8aa07 
+Nov 19 21:45:55.615 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-4508ed63-ad5c-4004-a4a2-a9930bb8aa07 1 
+Nov 19 22:22:50.645 HYPERVISOR: exec_cmd: ethsw delete SW5 
+Nov 19 22:22:50.926 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 22:22:51.347 HYPERVISOR: Stopped.
+Nov 19 22:22:51.347 GENERAL: reset done.

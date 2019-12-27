@@ -1,0 +1,38 @@
+Nov 21 02:09:44.703 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 21 02:09:44.703 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 16392.
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\VillarTechnologies\GNS3\projects\Desig Network v2\project-files\dynamips 
+Nov 21 02:09:45.187 GENERAL: working_dir=C:\Users\VillarTechnologies\GNS3\projects\Desig Network v2\project-files\dynamips
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\VillarTechnologies\GNS3\projects\Desig Network v2\project-files\dynamips\fae2aac1-aca3-4b78-8bf0-8c7561fdac3f 
+Nov 21 02:09:45.187 GENERAL: working_dir=C:\Users\VillarTechnologies\GNS3\projects\Desig Network v2\project-files\dynamips\fae2aac1-aca3-4b78-8bf0-8c7561fdac3f
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm create RouterM 5 c7200 
+Nov 21 02:09:45.187 VM: VM RouterM created.
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_con_tcp_port RouterM 5005 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: c7200 get_mac_addr RouterM 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm slot_add_binding RouterM 0 0 C7200-IO-FE 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_disk0 RouterM 0 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_exec_area RouterM 64 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_idle_pc RouterM 0x60270810 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: c7200 set_mac_addr RouterM ca05.1638.0000 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_nvram RouterM 512 
+Nov 21 02:09:45.187 HYPERVISOR: exec_cmd: vm set_ram RouterM 512 
+Nov 21 02:09:45.203 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 02:09:45.203 HYPERVISOR: exec_cmd: vm slot_add_binding RouterM 1 0 PA-8T 
+Nov 21 02:09:45.203 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 02:09:45.203 HYPERVISOR: exec_cmd: vm slot_add_binding RouterM 2 0 PA-4E 
+Nov 21 02:10:09.307 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 02:19:37.614 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 02:33:06.451 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 02:36:45.773 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 03:02:16.289 HYPERVISOR: exec_cmd: nio create_udp udp-774bed3e-1639-4637-95dc-e4cf0dada635 10020 127.0.0.1 10021 
+Nov 21 03:02:16.914 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RouterM 1 0 udp-774bed3e-1639-4637-95dc-e4cf0dada635 
+Nov 21 03:02:16.914 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 03:03:23.947 HYPERVISOR: exec_cmd: nio create_udp udp-46377f7b-db0e-4fc3-ab4e-5acab8e6713b 10034 127.0.0.1 10035 
+Nov 21 03:03:23.947 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RouterM 2 0 udp-46377f7b-db0e-4fc3-ab4e-5acab8e6713b 
+Nov 21 03:03:23.947 HYPERVISOR: exec_cmd: vm get_status RouterM 
+Nov 21 03:03:40.500 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 03:08:09.859 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 21 03:08:15.046 HYPERVISOR: exec_cmd: vm set_ios RouterM C:/Users/VillarTechnologies/GNS3/images/IOS/c7200-advipservicesk9-mz.124-4.T1.image 

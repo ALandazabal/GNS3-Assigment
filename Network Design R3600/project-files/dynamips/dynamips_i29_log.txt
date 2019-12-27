@@ -1,0 +1,43 @@
+Nov 19 07:08:48.806 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:08:48.822 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49843.
+Nov 19 07:08:49.898 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:08:50.320 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:08:50.491 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:08:50.491 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:08:50.866 HYPERVISOR: exec_cmd: vm create FinanceR 6 c3600 
+Nov 19 07:08:50.881 VM: VM FinanceR created.
+Nov 19 07:08:50.897 HYPERVISOR: exec_cmd: vm set_con_tcp_port FinanceR 2002 
+Nov 19 07:08:51.068 HYPERVISOR: exec_cmd: c3600 get_mac_addr FinanceR 
+Nov 19 07:08:51.287 HYPERVISOR: exec_cmd: vm set_exec_area FinanceR 64 
+Nov 19 07:08:51.318 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:08:51.427 HYPERVISOR: exec_cmd: vm slot_add_binding FinanceR 1 0 NM-4E 
+Nov 19 07:08:51.474 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:08:51.505 HYPERVISOR: exec_cmd: vm set_idle_pc FinanceR 0x605d2390 
+Nov 19 07:08:51.739 HYPERVISOR: exec_cmd: vm set_ios FinanceR C:\Users\FAMILIA\GNS3\images\IOS\c3640-ik9o3s-mz124-13.image 
+Nov 19 07:08:51.848 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:08:51.926 HYPERVISOR: exec_cmd: vm slot_add_binding FinanceR 0 0 NM-16ESW 
+Nov 19 07:08:52.098 HYPERVISOR: exec_cmd: vm set_nvram FinanceR 256 
+Nov 19 07:08:52.254 HYPERVISOR: exec_cmd: vm set_ram FinanceR 192 
+Nov 19 07:08:52.379 HYPERVISOR: exec_cmd: c3600 set_mac_addr FinanceR cc06.1434.0000 
+Nov 19 07:08:52.472 HYPERVISOR: exec_cmd: vm set_config FinanceR configs/i6_startup-config.cfg 
+Nov 19 07:08:52.582 HYPERVISOR: exec_cmd: vm set_ghost_status FinanceR 2 
+Nov 19 07:08:52.831 HYPERVISOR: exec_cmd: vm set_ghost_file FinanceR c3640-ik9o3s-mz124-13.image-192.ghost 
+Nov 19 07:08:53.502 HYPERVISOR: exec_cmd: nio create_udp udp-0f340cbd-b579-4773-bd2e-943f3c65ae41 10024 127.0.0.1 10023 
+Nov 19 07:08:53.580 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FinanceR 1 1 udp-0f340cbd-b579-4773-bd2e-943f3c65ae41 
+Nov 19 07:08:53.720 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:08:53.876 HYPERVISOR: exec_cmd: nio create_udp udp-d180950a-0e6f-4f63-bbe6-a139e22f87f7 10021 127.0.0.1 10022 
+Nov 19 07:08:53.908 HYPERVISOR: exec_cmd: vm slot_add_nio_binding FinanceR 1 0 udp-d180950a-0e6f-4f63-bbe6-a139e22f87f7 
+Nov 19 07:08:53.908 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:09:06.862 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:09:06.862 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding FinanceR 1 1 
+Nov 19 07:09:06.878 HYPERVISOR: exec_cmd: nio delete udp-0f340cbd-b579-4773-bd2e-943f3c65ae41 
+Nov 19 07:09:06.893 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:09:06.893 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding FinanceR 1 0 
+Nov 19 07:09:06.893 HYPERVISOR: exec_cmd: nio delete udp-d180950a-0e6f-4f63-bbe6-a139e22f87f7 
+Nov 19 07:09:06.925 HYPERVISOR: exec_cmd: vm get_status FinanceR 
+Nov 19 07:09:06.940 HYPERVISOR: exec_cmd: vm extract_config FinanceR 
+Nov 19 07:09:06.940 HYPERVISOR: exec_cmd: vm delete FinanceR 
+Nov 19 07:09:06.940 VM: VM FinanceR destroyed.
+Nov 19 07:09:06.956 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 07:09:07.003 HYPERVISOR: Stopped.
+Nov 19 07:09:07.003 GENERAL: reset done.

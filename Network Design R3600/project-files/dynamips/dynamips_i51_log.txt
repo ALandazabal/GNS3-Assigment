@@ -1,0 +1,14 @@
+Nov 19 07:57:58.026 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:58.026 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50025.
+Nov 19 07:57:58.604 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:58.682 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:58.682 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:58.682 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:58.697 HYPERVISOR: exec_cmd: ethsw create SW5 
+Nov 19 07:58:02.644 HYPERVISOR: exec_cmd: nio create_udp udp-52dcda19-cf3b-425e-af5f-966a5fe19f3c 10031 127.0.0.1 10032 
+Nov 19 07:58:02.738 HYPERVISOR: exec_cmd: ethsw add_nio SW5 udp-52dcda19-cf3b-425e-af5f-966a5fe19f3c 
+Nov 19 07:58:03.096 HYPERVISOR: exec_cmd: ethsw set_access_port SW5 udp-52dcda19-cf3b-425e-af5f-966a5fe19f3c 1 
+Nov 19 09:57:27.886 HYPERVISOR: exec_cmd: ethsw delete SW5 
+Nov 19 09:57:28.510 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:30.772 HYPERVISOR: Stopped.
+Nov 19 09:57:30.772 GENERAL: reset done.

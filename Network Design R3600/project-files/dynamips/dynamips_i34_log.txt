@@ -1,0 +1,66 @@
+Nov 19 07:09:41.596 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:09:41.596 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49858.
+Nov 19 07:09:41.986 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:09:41.986 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:09:41.986 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:09:41.986 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:09:41.986 HYPERVISOR: exec_cmd: vm create R5 10 c7200 
+Nov 19 07:09:42.001 VM: VM R5 created.
+Nov 19 07:09:42.001 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 2005 
+Nov 19 07:09:42.001 HYPERVISOR: exec_cmd: c7200 get_mac_addr R5 
+Nov 19 07:09:42.001 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 19 07:09:42.001 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 C7200-IO-FE 
+Nov 19 07:09:42.001 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm set_ios R5 C:\Users\FAMILIA\GNS3\images\IOS\c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x60270810 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm set_nvram R5 512 
+Nov 19 07:09:42.017 HYPERVISOR: exec_cmd: vm set_ram R5 512 
+Nov 19 07:09:42.095 HYPERVISOR: exec_cmd: vm set_config R5 configs/i10_startup-config.cfg 
+Nov 19 07:09:42.095 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Nov 19 07:09:42.110 HYPERVISOR: exec_cmd: vm set_ghost_file R5 c7200-advipservicesk9-mz.124-4.T1.image-512.ghost 
+Nov 19 07:11:36.248 HYPERVISOR: exec_cmd: vm rename R5 Marketing 
+Nov 19 07:11:36.263 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:11:36.263 HYPERVISOR: exec_cmd: vm slot_add_binding Marketing 2 0 PA-8E 
+Nov 19 07:11:36.263 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:11:36.263 HYPERVISOR: exec_cmd: vm slot_add_binding Marketing 1 0 PA-8T 
+Nov 19 07:13:13.891 HYPERVISOR: exec_cmd: nio create_udp udp-e88d22ba-08b3-4bb5-8040-75e9f1c0f057 10019 127.0.0.1 10020 
+Nov 19 07:13:13.969 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Marketing 1 0 udp-e88d22ba-08b3-4bb5-8040-75e9f1c0f057 
+Nov 19 07:13:13.969 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:14:03.952 HYPERVISOR: exec_cmd: nio create_udp udp-5eb3e5cd-242d-4833-9029-8f6305f1cac9 10028 127.0.0.1 10027 
+Nov 19 07:14:04.045 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Marketing 2 0 udp-5eb3e5cd-242d-4833-9029-8f6305f1cac9 
+Nov 19 07:14:04.045 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:15:50.476 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:15:50.476 HYPERVISOR: exec_cmd: vm set_idle_pc Marketing 0x0 
+Nov 19 07:15:50.476 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:15:50.476 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:15:50.476 HYPERVISOR: exec_cmd: vm start Marketing 
+Nov 19 07:16:11.583 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:16:11.989 HYPERVISOR: exec_cmd: vm get_idle_pc_prop Marketing 0 
+Nov 19 07:16:27.760 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:16:27.760 HYPERVISOR: exec_cmd: vm set_idle_pc_online Marketing 0 0x61ff96b4 
+Nov 19 07:16:27.760 HYPERVISOR: exec_cmd: vm cpu_usage Marketing 0 
+Nov 19 07:16:30.802 HYPERVISOR: exec_cmd: vm cpu_usage Marketing 0 
+Nov 19 07:16:30.802 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:16:30.802 HYPERVISOR: exec_cmd: vm set_idle_pc_online Marketing 0 0x6119b634 
+Nov 19 07:16:30.802 HYPERVISOR: exec_cmd: vm cpu_usage Marketing 0 
+Nov 19 07:16:33.829 HYPERVISOR: exec_cmd: vm cpu_usage Marketing 0 
+Nov 19 07:16:33.829 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:16:33.829 HYPERVISOR: exec_cmd: vm stop Marketing 
+Nov 19 07:16:34.188 VM: VM Marketing shutdown.
+Nov 19 07:21:24.477 HYPERVISOR: exec_cmd: vm extract_config Marketing 
+Nov 19 07:26:16.259 HYPERVISOR: exec_cmd: vm extract_config Marketing 
+Nov 19 07:27:56.676 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:27:56.676 HYPERVISOR: exec_cmd: vm start Marketing 
+Nov 19 07:38:20.788 HYPERVISOR: exec_cmd: vm extract_config Marketing 
+Nov 19 07:54:57.246 HYPERVISOR: exec_cmd: vm extract_config Marketing 
+Nov 19 07:55:55.108 HYPERVISOR: exec_cmd: vm get_status Marketing 
+Nov 19 07:55:55.888 HYPERVISOR: exec_cmd: vm stop Marketing 
+Nov 19 07:55:59.897 VM: VM Marketing shutdown.
+Nov 19 07:55:59.897 HYPERVISOR: exec_cmd: vm extract_config Marketing 
+Nov 19 07:55:59.897 HYPERVISOR: exec_cmd: vm delete Marketing 
+Nov 19 07:56:00.069 VM: VM Marketing destroyed.
+Nov 19 07:56:00.427 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 07:56:00.942 HYPERVISOR: Stopped.
+Nov 19 07:56:00.942 GENERAL: reset done.

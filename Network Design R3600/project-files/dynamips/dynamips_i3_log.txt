@@ -1,0 +1,29 @@
+Nov 19 21:45:25.052 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 21:45:25.052 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52799.
+Nov 19 21:45:25.348 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 21:45:25.364 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 21:45:25.380 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 21:45:25.380 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 21:45:25.380 HYPERVISOR: exec_cmd: ethsw create MainSIT 
+Nov 19 21:45:45.524 HYPERVISOR: exec_cmd: nio create_udp udp-ac46826c-a249-49f3-a6ae-848a9827e04f 10003 127.0.0.1 10002 
+Nov 19 21:45:45.571 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-ac46826c-a249-49f3-a6ae-848a9827e04f 
+Nov 19 21:45:45.602 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-ac46826c-a249-49f3-a6ae-848a9827e04f 11 
+Nov 19 21:45:48.062 HYPERVISOR: exec_cmd: nio create_udp udp-793ac433-a7cc-4387-8891-e5a269dfe810 10027 127.0.0.1 10028 
+Nov 19 21:45:48.374 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-793ac433-a7cc-4387-8891-e5a269dfe810 
+Nov 19 21:45:48.374 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSIT udp-793ac433-a7cc-4387-8891-e5a269dfe810 1 
+Nov 19 21:45:53.634 HYPERVISOR: exec_cmd: nio create_udp udp-19887438-2dfd-434a-8249-a9d0d55cbcfc 10060 127.0.0.1 10059 
+Nov 19 21:45:53.805 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-19887438-2dfd-434a-8249-a9d0d55cbcfc 
+Nov 19 21:45:54.008 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-19887438-2dfd-434a-8249-a9d0d55cbcfc 11 
+Nov 19 21:45:56.857 HYPERVISOR: exec_cmd: nio create_udp udp-6dbe6676-fa31-4914-aac1-3205b78dd33e 10082 127.0.0.1 10081 
+Nov 19 21:45:57.054 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-6dbe6676-fa31-4914-aac1-3205b78dd33e 
+Nov 19 21:45:57.179 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-6dbe6676-fa31-4914-aac1-3205b78dd33e 11 
+Nov 19 21:45:57.760 HYPERVISOR: exec_cmd: nio create_udp udp-f64011d9-a744-4f8f-a1f0-422cf2ca6daa 10086 127.0.0.1 10085 
+Nov 19 21:45:58.337 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-f64011d9-a744-4f8f-a1f0-422cf2ca6daa 
+Nov 19 21:45:58.509 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-f64011d9-a744-4f8f-a1f0-422cf2ca6daa 11 
+Nov 19 21:45:58.836 HYPERVISOR: exec_cmd: nio create_udp udp-2e37d0c1-f35c-48ba-927d-ed62e375374e 10090 127.0.0.1 10089 
+Nov 19 21:45:59.039 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-2e37d0c1-f35c-48ba-927d-ed62e375374e 
+Nov 19 21:45:59.211 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-2e37d0c1-f35c-48ba-927d-ed62e375374e 11 
+Nov 19 22:22:50.614 HYPERVISOR: exec_cmd: ethsw delete MainSIT 
+Nov 19 22:22:50.988 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 22:22:51.300 HYPERVISOR: Stopped.
+Nov 19 22:22:51.300 GENERAL: reset done.

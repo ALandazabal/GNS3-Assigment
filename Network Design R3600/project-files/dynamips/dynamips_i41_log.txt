@@ -1,0 +1,17 @@
+Nov 19 07:57:52.676 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:52.676 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49985.
+Nov 19 07:57:52.941 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:53.003 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:53.144 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:53.144 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:53.721 HYPERVISOR: exec_cmd: ethsw create MainSHR 
+Nov 19 07:58:01.334 HYPERVISOR: exec_cmd: nio create_udp udp-f8d366f1-c6cd-4635-8918-ac761595cc47 10021 127.0.0.1 10022 
+Nov 19 07:58:01.427 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-f8d366f1-c6cd-4635-8918-ac761595cc47 
+Nov 19 07:58:01.833 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSHR udp-f8d366f1-c6cd-4635-8918-ac761595cc47 1 
+Nov 19 07:58:02.847 HYPERVISOR: exec_cmd: nio create_udp udp-01278af3-aa25-4e76-aed6-df1fa69e5ed8 10032 127.0.0.1 10031 
+Nov 19 07:58:03.096 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-01278af3-aa25-4e76-aed6-df1fa69e5ed8 
+Nov 19 07:58:03.252 HYPERVISOR: exec_cmd: ethsw set_access_port MainSHR udp-01278af3-aa25-4e76-aed6-df1fa69e5ed8 12 
+Nov 19 09:57:28.073 HYPERVISOR: exec_cmd: ethsw delete MainSHR 
+Nov 19 09:57:28.525 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:29.227 HYPERVISOR: Stopped.
+Nov 19 09:57:29.227 GENERAL: reset done.

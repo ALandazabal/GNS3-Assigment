@@ -1,0 +1,22 @@
+Nov 19 07:57:52.676 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:52.676 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49986.
+Nov 19 07:57:52.925 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:52.925 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:52.941 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:52.941 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:52.972 HYPERVISOR: exec_cmd: ethsw create MainSwitchF 
+Nov 19 07:57:59.165 HYPERVISOR: exec_cmd: nio create_udp udp-8b71b510-9742-4a90-baa6-00a30150c3e7 10001 127.0.0.1 10000 
+Nov 19 07:57:59.243 HYPERVISOR: exec_cmd: ethsw add_nio MainSwitchF udp-8b71b510-9742-4a90-baa6-00a30150c3e7 
+Nov 19 07:57:59.477 HYPERVISOR: exec_cmd: ethsw set_access_port MainSwitchF udp-8b71b510-9742-4a90-baa6-00a30150c3e7 10 
+Nov 19 07:58:01.926 HYPERVISOR: exec_cmd: nio create_udp udp-dd6c4618-2097-468d-bf7e-93932f985e50 10025 127.0.0.1 10026 
+Nov 19 07:58:01.942 HYPERVISOR: exec_cmd: ethsw add_nio MainSwitchF udp-dd6c4618-2097-468d-bf7e-93932f985e50 
+Nov 19 07:58:02.238 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSwitchF udp-dd6c4618-2097-468d-bf7e-93932f985e50 1 
+Nov 19 08:54:22.183 HYPERVISOR: exec_cmd: nio create_udp udp-8f7a7433-c38b-4383-9f86-a91e34a7bb14 10002 127.0.0.1 10003 
+Nov 19 08:54:22.947 HYPERVISOR: exec_cmd: ethsw add_nio MainSwitchF udp-8f7a7433-c38b-4383-9f86-a91e34a7bb14 
+Nov 19 08:54:22.978 HYPERVISOR: exec_cmd: ethsw set_access_port MainSwitchF udp-8f7a7433-c38b-4383-9f86-a91e34a7bb14 10 
+Nov 19 08:56:14.091 HYPERVISOR: exec_cmd: ethsw remove_nio MainSwitchF udp-8f7a7433-c38b-4383-9f86-a91e34a7bb14 
+Nov 19 08:56:14.138 HYPERVISOR: exec_cmd: nio delete udp-8f7a7433-c38b-4383-9f86-a91e34a7bb14 
+Nov 19 09:57:28.120 HYPERVISOR: exec_cmd: ethsw delete MainSwitchF 
+Nov 19 09:57:28.557 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:29.805 HYPERVISOR: Stopped.
+Nov 19 09:57:29.805 GENERAL: reset done.

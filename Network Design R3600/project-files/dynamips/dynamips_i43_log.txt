@@ -1,0 +1,17 @@
+Nov 19 07:57:52.676 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:52.676 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49987.
+Nov 19 07:57:52.925 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:52.941 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:52.941 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:52.941 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:52.972 HYPERVISOR: exec_cmd: ethsw create MainSIT 
+Nov 19 07:58:00.179 HYPERVISOR: exec_cmd: nio create_udp udp-ab0eb02b-212a-4e89-a227-c2f7ab4b211a 10008 127.0.0.1 10006 
+Nov 19 07:58:00.366 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-ab0eb02b-212a-4e89-a227-c2f7ab4b211a 
+Nov 19 07:58:00.694 HYPERVISOR: exec_cmd: ethsw set_access_port MainSIT udp-ab0eb02b-212a-4e89-a227-c2f7ab4b211a 11 
+Nov 19 07:58:00.959 HYPERVISOR: exec_cmd: nio create_udp udp-0899aab9-74a8-4fd2-9faf-c3c779d514fb 10017 127.0.0.1 10018 
+Nov 19 07:58:01.053 HYPERVISOR: exec_cmd: ethsw add_nio MainSIT udp-0899aab9-74a8-4fd2-9faf-c3c779d514fb 
+Nov 19 07:58:01.240 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSIT udp-0899aab9-74a8-4fd2-9faf-c3c779d514fb 1 
+Nov 19 09:57:28.401 HYPERVISOR: exec_cmd: ethsw delete MainSIT 
+Nov 19 09:57:29.290 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:29.883 HYPERVISOR: Stopped.
+Nov 19 09:57:29.883 GENERAL: reset done.

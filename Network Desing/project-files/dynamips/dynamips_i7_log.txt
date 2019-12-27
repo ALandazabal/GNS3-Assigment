@@ -1,0 +1,41 @@
+Nov 18 23:14:31.009 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 18 23:14:31.024 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50793.
+Nov 18 23:14:31.414 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 18 23:14:31.414 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 18 23:14:31.414 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Desing\project-files\dynamips 
+Nov 18 23:14:31.414 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Desing\project-files\dynamips
+Nov 18 23:14:31.414 HYPERVISOR: exec_cmd: ethsw create SW1 
+Nov 18 23:14:47.872 HYPERVISOR: exec_cmd: nio create_udp udp-154e18ec-f29e-4998-ba36-da305f16a070 10006 127.0.0.1 10007 
+Nov 18 23:14:48.028 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-154e18ec-f29e-4998-ba36-da305f16a070 
+Nov 18 23:14:48.278 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SW1 udp-154e18ec-f29e-4998-ba36-da305f16a070 1 
+Nov 18 23:14:48.356 HYPERVISOR: exec_cmd: nio create_udp udp-05f3360c-57e0-4de5-96fb-9330296bae57 10014 127.0.0.1 10015 
+Nov 18 23:14:48.465 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-05f3360c-57e0-4de5-96fb-9330296bae57 
+Nov 18 23:14:48.652 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-05f3360c-57e0-4de5-96fb-9330296bae57 100 
+Nov 18 23:14:48.855 HYPERVISOR: exec_cmd: nio create_udp udp-e3e7eb36-5d25-4582-930c-b8fe28bd5055 10018 127.0.0.1 10016 
+Nov 18 23:14:48.949 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-e3e7eb36-5d25-4582-930c-b8fe28bd5055 
+Nov 18 23:14:49.120 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-e3e7eb36-5d25-4582-930c-b8fe28bd5055 100 
+Nov 18 23:14:49.307 HYPERVISOR: exec_cmd: nio create_udp udp-bbee114f-66b3-4d1a-8934-5d5173bed0b9 10017 127.0.0.1 10019 
+Nov 18 23:14:49.557 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-bbee114f-66b3-4d1a-8934-5d5173bed0b9 
+Nov 18 23:14:49.775 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-bbee114f-66b3-4d1a-8934-5d5173bed0b9 100 
+Nov 18 23:14:49.978 HYPERVISOR: exec_cmd: nio create_udp udp-cd6422d8-12e5-4270-8c74-c75ff8c051b3 10023 127.0.0.1 10022 
+Nov 18 23:14:50.150 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-cd6422d8-12e5-4270-8c74-c75ff8c051b3 
+Nov 18 23:14:50.181 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-cd6422d8-12e5-4270-8c74-c75ff8c051b3 100 
+Nov 18 23:14:50.462 HYPERVISOR: exec_cmd: nio create_udp udp-b8ff2022-d1bc-4262-b947-e218005574a7 10032 127.0.0.1 10033 
+Nov 18 23:14:50.665 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-b8ff2022-d1bc-4262-b947-e218005574a7 
+Nov 18 23:14:50.821 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-b8ff2022-d1bc-4262-b947-e218005574a7 100 
+Nov 18 23:14:50.899 HYPERVISOR: exec_cmd: nio create_udp udp-5d64293a-d937-4643-9586-ffdc9bd385c5 10029 127.0.0.1 10031 
+Nov 18 23:14:50.914 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-5d64293a-d937-4643-9586-ffdc9bd385c5 
+Nov 18 23:14:51.289 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-5d64293a-d937-4643-9586-ffdc9bd385c5 100 
+Nov 18 23:14:51.460 HYPERVISOR: exec_cmd: nio create_udp udp-2b6ce493-7932-4998-a1c4-03a9e0bb9bcd 10039 127.0.0.1 10040 
+Nov 18 23:14:51.616 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-2b6ce493-7932-4998-a1c4-03a9e0bb9bcd 
+Nov 18 23:14:51.803 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-2b6ce493-7932-4998-a1c4-03a9e0bb9bcd 100 
+Nov 18 23:14:53.317 HYPERVISOR: exec_cmd: nio create_udp udp-16f6989f-16c4-4c8c-86b5-dff8b3600f26 10059 127.0.0.1 10058 
+Nov 18 23:14:53.504 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-16f6989f-16c4-4c8c-86b5-dff8b3600f26 
+Nov 18 23:14:53.597 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-16f6989f-16c4-4c8c-86b5-dff8b3600f26 100 
+Nov 18 23:14:53.660 HYPERVISOR: exec_cmd: nio create_udp udp-75a28cf0-daf4-41ed-ba3a-ac7991244857 10062 127.0.0.1 10063 
+Nov 18 23:14:53.738 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-75a28cf0-daf4-41ed-ba3a-ac7991244857 
+Nov 18 23:14:53.941 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-75a28cf0-daf4-41ed-ba3a-ac7991244857 100 
+Nov 19 01:17:37.900 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Nov 19 01:17:39.085 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 01:17:47.228 HYPERVISOR: Stopped.
+Nov 19 01:17:47.275 GENERAL: reset done.

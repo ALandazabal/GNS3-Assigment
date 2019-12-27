@@ -1,0 +1,61 @@
+Nov 19 21:45:26.908 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 21:45:26.908 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52802.
+Nov 19 21:45:27.532 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 21:45:27.548 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 21:45:27.548 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 21:45:27.548 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 21:45:27.548 HYPERVISOR: exec_cmd: vm create main 2 c7200 
+Nov 19 21:45:27.579 VM: VM main created.
+Nov 19 21:45:27.579 HYPERVISOR: exec_cmd: vm set_con_tcp_port main 2001 
+Nov 19 21:45:27.579 HYPERVISOR: exec_cmd: c7200 get_mac_addr main 
+Nov 19 21:45:27.579 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: vm slot_add_binding main 0 0 C7200-IO-FE 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: c7200 set_mac_addr main ca02.1124.0000 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: vm set_exec_area main 64 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: vm set_ios main C:\Users\FAMILIA\GNS3\images\IOS\c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:27.595 HYPERVISOR: exec_cmd: vm slot_add_binding main 2 0 PA-8E 
+Nov 19 21:45:27.610 HYPERVISOR: exec_cmd: vm set_disk0 main 0 
+Nov 19 21:45:27.610 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:27.642 HYPERVISOR: exec_cmd: vm slot_add_binding main 1 0 PA-8T 
+Nov 19 21:45:27.688 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:27.688 HYPERVISOR: exec_cmd: vm set_idle_pc main 0x61ff96ac 
+Nov 19 21:45:27.688 HYPERVISOR: exec_cmd: vm set_nvram main 512 
+Nov 19 21:45:27.688 HYPERVISOR: exec_cmd: vm set_ram main 512 
+Nov 19 21:45:27.704 HYPERVISOR: exec_cmd: vm set_config main configs/i2_startup-config.cfg 
+Nov 19 21:45:30.528 HYPERVISOR: exec_cmd: vm set_ghost_status main 2 
+Nov 19 21:45:30.528 HYPERVISOR: exec_cmd: vm set_ghost_file main c7200-advipservicesk9-mz.124-4.T1.image-512.ghost 
+Nov 19 21:45:43.325 HYPERVISOR: exec_cmd: nio create_gen_eth generic_ethernet-ad433dd7-25b7-43c3-9e2b-fda0243f4fca \Device\NPF_{8E4FA680-034A-4D5C-92F8-B0C9D36CEBA1} 
+Nov 19 21:45:44.370 HYPERVISOR: exec_cmd: vm slot_add_nio_binding main 2 0 generic_ethernet-ad433dd7-25b7-43c3-9e2b-fda0243f4fca 
+Nov 19 21:45:44.604 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:46.905 HYPERVISOR: exec_cmd: nio create_udp udp-a54bfa66-93df-44eb-8fab-48a977601f7e 10018 127.0.0.1 10017 
+Nov 19 21:45:47.089 HYPERVISOR: exec_cmd: vm slot_add_nio_binding main 1 3 udp-a54bfa66-93df-44eb-8fab-48a977601f7e 
+Nov 19 21:45:47.347 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:48.358 HYPERVISOR: exec_cmd: nio create_udp udp-505b5db5-6e8b-4dc3-8eff-4b942e53d0ca 10024 127.0.0.1 10023 
+Nov 19 21:45:48.374 HYPERVISOR: exec_cmd: vm slot_add_nio_binding main 1 0 udp-505b5db5-6e8b-4dc3-8eff-4b942e53d0ca 
+Nov 19 21:45:48.389 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:48.811 HYPERVISOR: exec_cmd: nio create_udp udp-fe28435c-3bed-4325-a4a8-e51c3c81b301 10026 127.0.0.1 10025 
+Nov 19 21:45:48.982 HYPERVISOR: exec_cmd: vm slot_add_nio_binding main 1 1 udp-fe28435c-3bed-4325-a4a8-e51c3c81b301 
+Nov 19 21:45:48.998 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:45:49.216 HYPERVISOR: exec_cmd: nio create_udp udp-694c0ba9-33e6-41f4-b1ec-fe2ba8911a4b 10030 127.0.0.1 10029 
+Nov 19 21:45:49.575 HYPERVISOR: exec_cmd: vm slot_add_nio_binding main 1 2 udp-694c0ba9-33e6-41f4-b1ec-fe2ba8911a4b 
+Nov 19 21:45:49.747 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:46:14.610 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 21:46:14.610 HYPERVISOR: exec_cmd: vm start main 
+Nov 19 22:04:30.527 HYPERVISOR: exec_cmd: vm extract_config main 
+Nov 19 22:04:45.546 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 22:04:45.546 HYPERVISOR: exec_cmd: vm stop main 
+Nov 19 22:04:46.124 VM: VM main shutdown.
+Nov 19 22:06:17.640 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 22:06:17.640 HYPERVISOR: exec_cmd: vm start main 
+Nov 19 22:16:37.316 HYPERVISOR: exec_cmd: vm extract_config main 
+Nov 19 22:22:37.478 HYPERVISOR: exec_cmd: vm extract_config main 
+Nov 19 22:22:54.124 HYPERVISOR: exec_cmd: vm get_status main 
+Nov 19 22:22:54.170 HYPERVISOR: exec_cmd: vm stop main 
+Nov 19 22:22:55.044 VM: VM main shutdown.
+Nov 19 22:22:55.075 HYPERVISOR: exec_cmd: vm extract_config main 
+Nov 19 22:22:55.106 HYPERVISOR: exec_cmd: vm delete main 
+Nov 19 22:22:55.106 VM: VM main destroyed.
+Nov 19 22:22:55.122 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 22:22:55.465 HYPERVISOR: Stopped.
+Nov 19 22:22:55.465 GENERAL: reset done.

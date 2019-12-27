@@ -1,0 +1,17 @@
+Nov 19 07:57:52.676 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:52.676 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49988.
+Nov 19 07:57:53.393 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:53.721 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:53.736 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:53.736 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:53.736 HYPERVISOR: exec_cmd: ethsw create MainSMark 
+Nov 19 07:58:02.550 HYPERVISOR: exec_cmd: nio create_udp udp-3480ca4f-892e-4dc4-ad5b-f71659b85653 10029 127.0.0.1 10030 
+Nov 19 07:58:02.644 HYPERVISOR: exec_cmd: ethsw add_nio MainSMark udp-3480ca4f-892e-4dc4-ad5b-f71659b85653 
+Nov 19 07:58:02.738 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSMark udp-3480ca4f-892e-4dc4-ad5b-f71659b85653 1 
+Nov 19 07:58:03.237 HYPERVISOR: exec_cmd: nio create_udp udp-cdfe9b7a-7011-4cb5-bd76-c55fd7d68409 10034 127.0.0.1 10033 
+Nov 19 07:58:03.268 HYPERVISOR: exec_cmd: ethsw add_nio MainSMark udp-cdfe9b7a-7011-4cb5-bd76-c55fd7d68409 
+Nov 19 07:58:03.346 HYPERVISOR: exec_cmd: ethsw set_access_port MainSMark udp-cdfe9b7a-7011-4cb5-bd76-c55fd7d68409 13 
+Nov 19 09:57:28.135 HYPERVISOR: exec_cmd: ethsw delete MainSMark 
+Nov 19 09:57:29.305 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:30.491 HYPERVISOR: Stopped.
+Nov 19 09:57:30.491 GENERAL: reset done.

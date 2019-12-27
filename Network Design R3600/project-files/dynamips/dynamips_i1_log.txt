@@ -1,0 +1,23 @@
+Nov 19 21:45:25.146 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 21:45:25.146 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52797.
+Nov 19 21:45:25.348 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 21:45:25.364 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 21:45:25.364 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 21:45:25.380 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 21:45:25.380 HYPERVISOR: exec_cmd: ethsw create MainSHR 
+Nov 19 21:45:45.883 HYPERVISOR: exec_cmd: nio create_udp udp-070043ab-38c8-452d-9697-f0873f76858b 10006 127.0.0.1 10008 
+Nov 19 21:45:46.476 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-070043ab-38c8-452d-9697-f0873f76858b 
+Nov 19 21:45:46.569 HYPERVISOR: exec_cmd: ethsw set_access_port MainSHR udp-070043ab-38c8-452d-9697-f0873f76858b 12 
+Nov 19 21:45:48.982 HYPERVISOR: exec_cmd: nio create_udp udp-bff8bc56-9115-4ad8-ad44-739266ca49f1 10031 127.0.0.1 10032 
+Nov 19 21:45:48.998 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-bff8bc56-9115-4ad8-ad44-739266ca49f1 
+Nov 19 21:45:50.199 HYPERVISOR: exec_cmd: ethsw set_dot1q_port MainSHR udp-bff8bc56-9115-4ad8-ad44-739266ca49f1 1 
+Nov 19 21:45:54.102 HYPERVISOR: exec_cmd: nio create_udp udp-79325b13-48cc-4834-b964-0f7715a97c2f 10061 127.0.0.1 10063 
+Nov 19 21:45:54.117 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-79325b13-48cc-4834-b964-0f7715a97c2f 
+Nov 19 21:45:54.273 HYPERVISOR: exec_cmd: ethsw set_access_port MainSHR udp-79325b13-48cc-4834-b964-0f7715a97c2f 12 
+Nov 19 21:45:54.928 HYPERVISOR: exec_cmd: nio create_udp udp-7f323a97-02f6-4bc0-9b32-ff96528d48db 10070 127.0.0.1 10069 
+Nov 19 21:45:54.928 HYPERVISOR: exec_cmd: ethsw add_nio MainSHR udp-7f323a97-02f6-4bc0-9b32-ff96528d48db 
+Nov 19 21:45:55.131 HYPERVISOR: exec_cmd: ethsw set_access_port MainSHR udp-7f323a97-02f6-4bc0-9b32-ff96528d48db 12 
+Nov 19 22:22:50.614 HYPERVISOR: exec_cmd: ethsw delete MainSHR 
+Nov 19 22:22:50.879 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 22:22:51.394 HYPERVISOR: Stopped.
+Nov 19 22:22:51.394 GENERAL: reset done.

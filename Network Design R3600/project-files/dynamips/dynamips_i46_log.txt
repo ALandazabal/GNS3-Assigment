@@ -1,0 +1,47 @@
+Nov 19 07:57:53.565 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Nov 19 07:57:53.565 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 50015.
+Nov 19 07:57:54.501 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 19 07:57:54.501 HYPERVISOR: exec_cmd: hypervisor uuid 
+Nov 19 07:57:54.501 HYPERVISOR: exec_cmd: hypervisor working_dir C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips 
+Nov 19 07:57:54.501 GENERAL: working_dir=C:/Users/FAMILIA/GNS3/projects/Network Design R3600\project-files\dynamips
+Nov 19 07:57:54.501 HYPERVISOR: exec_cmd: vm create Finance 7 c7200 
+Nov 19 07:57:54.516 VM: VM Finance created.
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: vm set_con_tcp_port Finance 2002 
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: c7200 get_mac_addr Finance 
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: vm slot_add_binding Finance 0 0 C7200-IO-FE 
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: vm set_exec_area Finance 64 
+Nov 19 07:57:54.516 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm slot_add_binding Finance 1 0 PA-8T 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm set_idle_pc Finance 0x61ff82c0 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm set_disk0 Finance 0 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm slot_add_binding Finance 2 0 PA-8E 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm set_ios Finance C:\Users\FAMILIA\GNS3\images\IOS\c7200-advipservicesk9-mz.124-4.T1.image 
+Nov 19 07:57:54.532 HYPERVISOR: exec_cmd: vm set_nvram Finance 512 
+Nov 19 07:57:54.548 HYPERVISOR: exec_cmd: vm set_ram Finance 512 
+Nov 19 07:57:54.548 HYPERVISOR: exec_cmd: c7200 set_mac_addr Finance ca07.13ac.0000 
+Nov 19 07:57:54.548 HYPERVISOR: exec_cmd: vm set_config Finance configs/i7_startup-config.cfg 
+Nov 19 07:57:58.104 HYPERVISOR: exec_cmd: vm set_ghost_status Finance 2 
+Nov 19 07:57:58.120 HYPERVISOR: exec_cmd: vm set_ghost_file Finance c7200-advipservicesk9-mz.124-4.T1.image-512.ghost 
+Nov 19 07:58:01.677 HYPERVISOR: exec_cmd: nio create_udp udp-7dac3dd7-57a1-4e1d-88fb-e9af2ef831d6 10023 127.0.0.1 10024 
+Nov 19 07:58:01.926 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Finance 1 0 udp-7dac3dd7-57a1-4e1d-88fb-e9af2ef831d6 
+Nov 19 07:58:01.942 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:58:02.285 HYPERVISOR: exec_cmd: nio create_udp udp-392a531a-15bc-4229-a5e8-703121bdadd9 10026 127.0.0.1 10025 
+Nov 19 07:58:02.316 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Finance 2 0 udp-392a531a-15bc-4229-a5e8-703121bdadd9 
+Nov 19 07:58:02.566 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:58:12.312 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 07:58:12.312 HYPERVISOR: exec_cmd: vm start Finance 
+Nov 19 08:45:27.962 HYPERVISOR: exec_cmd: vm extract_config Finance 
+Nov 19 08:52:30.266 HYPERVISOR: exec_cmd: vm extract_config Finance 
+Nov 19 09:57:24.345 HYPERVISOR: exec_cmd: vm extract_config Finance 
+Nov 19 09:57:33.923 HYPERVISOR: exec_cmd: vm get_status Finance 
+Nov 19 09:57:34.079 HYPERVISOR: exec_cmd: vm stop Finance 
+Nov 19 09:57:46.466 VM: VM Finance shutdown.
+Nov 19 09:57:46.793 HYPERVISOR: exec_cmd: vm extract_config Finance 
+Nov 19 09:57:46.965 HYPERVISOR: exec_cmd: vm delete Finance 
+Nov 19 09:57:47.199 VM: VM Finance destroyed.
+Nov 19 09:57:47.511 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 19 09:57:47.636 HYPERVISOR: Stopped.
+Nov 19 09:57:47.636 GENERAL: reset done.
